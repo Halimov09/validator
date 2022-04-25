@@ -459,7 +459,7 @@ body {
     line-height: 40px !important;
   }
   .container2--col {
-    width: 350px !important;
+    width: 440px !important;
   }
   .nav__number {
     font-size: 35px;
@@ -470,6 +470,7 @@ body {
   }
   .nav__container2 {
     margin-top: 130px !important;
+    /* padding-left: 40px !important; */
   }
 }
 
@@ -484,7 +485,7 @@ body {
     top: 590px;
   }
   .container2--col {
-    width: 240px !important;
+    width: 300px !important;
   }
 }
 
@@ -493,13 +494,19 @@ body {
     display: none;
   }
   .container2--col {
-    width: 120px !important;
+    width: 150px !important;
   }
   .container2--col p {
     font-size: 15px !important;
   }
   .container__h4 {
-    font-size: 20px !important;
+    font-size: 18px !important;
+  }
+  .nav__number::before{
+      left: -20px !important;
+  }
+  .nav__container2{
+    padding-left: 20px !important;
   }
 }
 

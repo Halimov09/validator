@@ -1,0 +1,94 @@
+// test section start
+.test{
+    margin-top: 120px;
+}
+
+.test__h5{
+    font-family: 'oks';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 72px;
+    color: #000000;
+}
+
+.test__p{
+    font-family: 'gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000;
+    padding-top: 50px;
+}
+
+.test__button{
+    width: 300px;
+    height: 70px;
+    font-family: 'gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #1387F2;
+    box-shadow: 0px 8px 20px rgba(0, 133, 255, 0.5);
+    border-radius: 35px;
+    margin-top: 80px;
+}
+
+.test__img2{
+    border-radius: 202.5px;
+}
+
+
+
+@media(max-width: 976px){
+    .test__h5{
+        padding-left: 15px !important;
+    }
+
+    .test__p{
+        padding-left: 15px !important;
+    }
+
+    .test__button{
+        margin-left: 15px !important;
+    }
+}
+
+
+@media(max-width: 720px){
+    .test__button{
+        width: 250px !important;
+        font-size: 25px !important;
+        height: 60px !important;
+    }
+    .test__h5{
+        font-size: 55px !important;
+    }
+    .test__p{
+        font-size: 25px !important;
+    }
+}
+
+
+@media(max-width: 576px){
+    .test__button{
+        width: 180px !important;
+        font-size: 16px !important;
+        height: 40px !important;
+        margin-top: 50px !important;
+
+    }
+    .test__h5{
+        font-size: 35px !important;
+        line-height: 38px !important;
+    }
+    .test__p{
+        font-size: 17px !important;
+        line-height: 30px !important;
+        padding-top: 30px !important;
+    }
+}

@@ -576,9 +576,11 @@ body {
 @media (max-width: 976px) {
   .language__choose {
     font-size: 48px !important;
+    padding-left: 15px !important;
   }
   .language__img h6 {
     font-size: 30px;
+    padding-left: 15px !important;
   }
   .language__img img {
     padding: 40px 0px 0px 250px !important;
@@ -603,6 +605,7 @@ body {
   }
   .language__img h6 {
     font-size: 26px;
+    padding-left: 15px !important;
   }
   .language__img img {
     padding: 20px 0px 0px 100px !important;
@@ -617,7 +620,7 @@ body {
   .language__img h6 {
     font-size: 20px;
     padding-top: 30px !important;
-    padding-left: 20px !important;
+    padding-left: 15px !important;
   }
   .language__img img {
     height: auto !important;
@@ -628,7 +631,7 @@ body {
 @media (max-width: 376px) {
   .language__img h6 {
     font-size: 15px !important;
-    padding-left: 10px !important;
+    padding-left: 15px !important;
   }
   .language__img img {
     width: 160px !important;

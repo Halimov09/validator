@@ -42,6 +42,11 @@
     border-radius: 202.5px;
 }
 
+.test__button:focus{
+    outline: none !important;
+    border: none !important;
+}
+
 
 
 @media(max-width: 976px){
@@ -56,6 +61,8 @@
     .test__button{
         margin-left: 15px !important;
     }
+    
+
 }
 
 
@@ -76,9 +83,9 @@
 
 @media(max-width: 576px){
     .test__button{
-        width: 180px !important;
+        width: 190px !important;
         font-size: 16px !important;
-        height: 40px !important;
+        height: 50px !important;
         margin-top: 50px !important;
 
     }

@@ -1,0 +1,293 @@
+//  lesson start 
+.lesson{
+    margin-top: 118px;
+}
+.lesson__h3{
+    font-family: 'oks';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 72px;
+    color: #000000;
+}
+
+.lesson__col{
+    h4{
+        font-family: 'gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 72px;
+        line-height: 86px;
+        color: #000000;
+        padding-left: 88px;
+    }
+    p{
+        font-family: 'gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 38px;
+        color: #000000;
+        padding-top: 25px;
+    }
+}
+
+.les--col1{
+    p{
+        padding-left: 137px;
+    }
+}
+
+.les--col2{
+    p{
+        padding-left: 124px;
+    }
+}
+
+.les--col3{
+    p{
+        padding-left: 123px;
+    }
+}
+
+.les--col4{
+    p{
+        padding-left: 120px;
+    }
+}
+
+.lesson__row2{
+    margin-top: 52px;
+}
+
+.lesson2_col{
+    width: 739px;
+    margin-left: 93px;
+}
+
+.lesson2_col2{
+    width: 887px;
+}
+
+.lesson__row1{
+    margin-top: 50px;
+}
+
+.lesson__col{
+    h4{
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    h4::before{
+        content: "";
+        width: 200px;
+        position: absolute;
+        height: 80px;
+        z-index: -1;
+        border-radius: 40px;
+        bottom: 0px !important;
+        transform: translateY(10px) !important;
+    }
+}
+
+.lesson__coll{
+    position: relative;
+    left: -29px;
+}
+
+.les__h4-1::before{
+    background-color: #1387F2;
+}
+
+.les__h4-2::before{
+    background-color: #F68E12;
+}
+
+.les__h4-3::before{
+    background-color: #B6FF58;
+}
+
+.les__h4-4::before{
+    background-color: #1387F2;
+}
+
+@media (max-width: 1365px){
+    .lesson__col{
+        h4{
+            font-size: 50px !important;
+        }
+        h4::before{
+            width: 150px !important;
+            height: 60px;
+        }
+        p{
+            font-size: 20px !important;
+        }
+    }
+    
+    .lesson__row2{
+        margin-top: 52px;
+    }
+    
+    .lesson2_col{
+        width: 639px;
+    }
+    
+    .lesson2_col2{
+        width: 787px;
+    }
+
+    .les--col2{
+        margin-left: 0px !important;
+    }
+    .lesson2_col{
+        margin-left: 0px !important;
+    }
+    .lesson__coll4{
+        justify-content: flex-start !important;
+    }
+    .lesson__coll{
+        left: 0px !important;
+    }
+}
+
+@media (max-width: 1165px){
+    .lesson2_col{
+        width: 100% !important;
+    }
+    .lesson2_col2{
+        width: 100% !important;
+    }
+    .lesson__row2{
+        margin-top: 0px !important;
+    }
+}
+
+@media (max-width: 976px){
+    .lesson__col{
+        h4{
+            font-size: 40px !important;
+        }
+        h4::before{
+            width: 130px !important;
+            height: 50px !important;
+        }
+        p{
+            font-size: 18px !important;
+        }
+    }
+    .lesson__h3{
+        padding-left: 15px;
+    }
+
+    .les--col1{
+        p{
+            padding-left: 107px !important;
+        }
+    }
+    
+    .les--col2{
+        p{
+            padding-left: 94px !important;
+        }
+    }
+    
+    .les--col3{
+        p{
+            padding-left: 93px !important;
+        }
+    }
+    
+    .les--col4{
+        p{
+            padding-left: 90px !important;
+        }
+    }
+
+
+}
+
+@media (max-width: 868px){
+    .lesson__col{
+        p{
+            line-height: 22px !important;
+        }
+    }
+
+    .lesson__h3{
+        font-size: 55px !important;
+    }
+    .lesson__col{
+        h4{
+            padding-left: 60px !important;
+        }
+        .les__h4-1{
+            padding-left: 63px !important;
+        }
+        .les__h4-4{
+            padding-left: 59px !important;
+        }
+        
+    }
+}
+
+@media (max-width: 576px){
+    .lesson__h3{
+        font-size: 30px !important;
+        line-height: 30px !important;
+    }
+    .les__h4-4::before{
+        top: 35px !important;
+    }
+    .lesson__col{
+        h4{
+            font-size: 30px !important;
+        }
+        h4::before{
+            width: 90px !important;
+            height: 30px !important;
+            top: 35px !important;
+        }
+        p{
+            font-size: 16px !important;
+            padding-left: 50px !important;
+        }
+    }
+}
+
+
+@media (max-width: 376px){
+    .lesson__col{
+        h4{
+            font-size: 26px !important;
+        }
+        h4::before{
+            width: 70px !important;
+            height: 25px !important;
+            top: 35px !important;
+        }
+        p{
+            font-size: 14px !important;
+            padding-left: 45px !important;
+        }
+    }
+
+    .lesson__col{
+        h4{
+            padding-left: 30px !important;
+        }
+        .les__h4-1{
+            padding-left: 33px !important;
+        }
+        .les__h4-4{
+            padding-left: 29px !important;
+        }
+        
+    }
+    .lesson__h3{
+        font-size: 28px !important;
+    }
+
+    
+}

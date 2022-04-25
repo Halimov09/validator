@@ -592,6 +592,9 @@ body {
   .language__col3 {
     padding: 0px !important;
   }
+  .laguage__row2 {
+    margin-top: 24px !important;
+  }
 }
 
 @media (max-width: 720px) {

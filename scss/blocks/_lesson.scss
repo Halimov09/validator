@@ -61,8 +61,7 @@
 }
 
 .lesson2_col{
-    width: 739px;
-    margin-left: 93px;
+    width: 887px;
 }
 
 .lesson2_col2{
@@ -130,17 +129,10 @@
         margin-top: 52px;
     }
     
-    .lesson2_col{
-        width: 639px;
-    }
-    
-    .lesson2_col2{
-        width: 787px;
-    }
 
-    .les--col2{
-        margin-left: 0px !important;
-    }
+    // .les--col2{
+    //     margin-left: 0px !important;
+    // }
     .lesson2_col{
         margin-left: 0px !important;
     }
@@ -150,6 +142,13 @@
     .lesson__coll{
         left: 0px !important;
     }
+}
+
+@media (max-width: 1640px){
+    .les__h4-3::before, .les__h4-4::before, .les__h4-2::before, .les__h4-1::before{
+        top: 40px !important;
+    }
+    
 }
 
 @media (max-width: 1165px){
@@ -181,30 +180,42 @@
         padding-left: 15px;
     }
 
-    .les--col1{
-        p{
-            padding-left: 107px !important;
-        }
-    }
+    // .les--col1{
+    //     p{
+    //         padding-left: 107px !important;
+    //     }
+    // }
     
-    .les--col2{
-        p{
-            padding-left: 94px !important;
-        }
-    }
+    // .les--col2{
+    //     p{
+    //         padding-left: 100px !important;
+    //     }
+    // }
     
-    .les--col3{
-        p{
-            padding-left: 93px !important;
-        }
-    }
+    // .les--col3{
+    //     p{
+    //         padding-left: 98px !important;
+    //     }
+    // }
     
-    .les--col4{
-        p{
-            padding-left: 90px !important;
-        }
-    }
+    // .les--col4{
+    //     p{
+    //         padding-left: 96px !important;
+    //     }
+    // }
 
+    .lesson__col{
+        h4{
+            padding-left: 60px !important;
+        }
+        .les__h4-1{
+            padding-left: 63px !important;
+        }
+        .les__h4-4{
+            padding-left: 59px !important;
+        }
+        
+    }
 
 }
 

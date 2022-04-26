@@ -478,7 +478,7 @@ body{
         display: none;
     }
     .container2--col{
-        width: 120px !important;
+        width: 150px !important;
         p{
             font-size: 15px !important;
         }
@@ -488,6 +488,13 @@ body{
         font-size: 20px !important;
     }
    
+    .nav__number::before{
+        width: 110px !important;
+        height: 40px !important;
+    }
+    .nav__number{
+        font-size: 28px !important;
+    }
 }
 
 // navbar middle end

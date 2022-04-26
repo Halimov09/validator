@@ -400,17 +400,17 @@ template {
 }
 
 .navbar-collapse {
-  padding-left: 160px !important;
+  padding-left: 120px !important;
 }
 
 .nav-link {
-  padding-left: 40px !important;
+  padding-left: 32px !important;
   font-family: 'gilroy';
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 38px;
-  color: #000000;
+  color: #000000 !important;
 }
 
 .navbar__call {
@@ -420,8 +420,12 @@ template {
   font-size: 32px;
   line-height: 38px;
   text-align: right;
-  color: #000000;
-  padding-right: 95px;
+  color: #000000 !important;
+  padding-right: 40px !important;
+}
+
+.navbar__sign {
+  padding-left: 160px !important;
 }
 
 .navbar__sign a {
@@ -430,7 +434,7 @@ template {
 
 .navbar__voyti {
   list-style-type: none;
-  width: 200px;
+  width: 196px;
   border: 2px solid #1387F2;
   border-radius: 30px;
   height: 60px;
@@ -614,6 +618,10 @@ body {
   padding-top: 20px;
 }
 
+.img__marg {
+  margin-left: 9px !important;
+}
+
 @media (max-width: 1550px) {
   .navbar__call {
     font-size: 24px;
@@ -757,7 +765,7 @@ body {
     height: 60px;
   }
   .img__marg {
-    left: 0px !important;
+    margin-left: 0px !important;
   }
   .nav__middle {
     margin-top: 100px !important;

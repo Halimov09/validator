@@ -770,6 +770,9 @@ body {
   .nav__middle {
     margin-top: 100px !important;
   }
+  .navbar__sign {
+    padding-left: 0px !important;
+  }
 }
 
 @media (max-width: 720px) {
@@ -1254,6 +1257,83 @@ body {
   background-color: #1387F2;
 }
 
+.lesson__great-text {
+  font-family: 'oks';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 120px;
+  color: #000000;
+  padding-top: 120px;
+}
+
+.les__text-1 {
+  color: white;
+  position: relative;
+}
+
+.les__text-1::after {
+  content: "";
+  position: absolute;
+  width: 916px !important;
+  height: 108px !important;
+  left: -25px;
+  z-index: -1;
+  top: 20px !important;
+  background-color: #1387F2 !important;
+  border-radius: 54px;
+}
+
+.les__text-2::after {
+  content: "";
+  position: absolute;
+  width: 565px !important;
+  height: 113px !important;
+  top: 20px !important;
+  left: -22px !important;
+  background-color: #F68E12;
+  z-index: -1;
+  border-radius: 54px;
+}
+
+.les__text-3::after {
+  content: "";
+  position: absolute;
+  width: 787px !important;
+  height: 108px !important;
+  top: 20px !important;
+  left: -28px !important;
+  background-color: #B6FF58;
+  z-index: -1;
+  border-radius: 54px;
+}
+
+.les__text-2 {
+  color: white;
+  position: relative;
+}
+
+.les__text-3 {
+  position: relative;
+  color: white;
+}
+
+@media (max-width: 1640px) {
+  .les__h4-3::before, .les__h4-4::before, .les__h4-2::before, .les__h4-1::before {
+    top: 40px !important;
+  }
+  .lesson__great-text {
+    font-size: 65px !important;
+    line-height: 70px !important;
+  }
+  .les__text-har::after {
+    width: 109% !important;
+    height: 100% !important;
+    top: 10px !important;
+    left: -16px !important;
+  }
+}
+
 @media (max-width: 1365px) {
   .lesson__col h4 {
     font-size: 50px !important;
@@ -1279,11 +1359,9 @@ body {
   .lesson__coll {
     left: 0px !important;
   }
-}
-
-@media (max-width: 1640px) {
-  .les__h4-3::before, .les__h4-4::before, .les__h4-2::before, .les__h4-1::before {
-    top: 40px !important;
+  .lesson__container-text {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
   }
 }
 
@@ -1296,6 +1374,19 @@ body {
   }
   .lesson__row2 {
     margin-top: 0px !important;
+  }
+  .lesson__great-text {
+    font-size: 100px !important;
+  }
+  .lesson__great-text {
+    font-size: 60px !important;
+    line-height: 65px !important;
+  }
+  .les__text-har::after {
+    width: 109% !important;
+    height: 100% !important;
+    top: 10px !important;
+    left: -16px !important;
   }
 }
 
@@ -1322,6 +1413,15 @@ body {
   .lesson__col .les__h4-4 {
     padding-left: 60px !important;
   }
+  .lesson__great-text {
+    font-size: 60px !important;
+    line-height: 65px !important;
+  }
+  .les__text-har::after {
+    width: 109% !important;
+    height: 100% !important;
+    top: 10px !important;
+  }
 }
 
 @media (max-width: 868px) {
@@ -1339,6 +1439,28 @@ body {
   }
   .lesson__col .les__h4-4 {
     padding-left: 59px !important;
+  }
+  .lesson__great-text {
+    font-size: 52px !important;
+    line-height: 55px !important;
+  }
+  .les__text-har::after {
+    width: 109% !important;
+    height: 100% !important;
+    left: -15px !important;
+  }
+}
+
+@media (max-width: 720px) {
+  .lesson__great-text {
+    font-size: 35px !important;
+    line-height: 45px !important;
+  }
+  .les__text-har::after {
+    width: 109% !important;
+    height: 100% !important;
+    left: -10px !important;
+    top: 6px !important;
   }
 }
 
@@ -1361,6 +1483,16 @@ body {
   .lesson__col p {
     font-size: 16px !important;
     padding-left: 50px !important;
+  }
+  .lesson__great-text {
+    font-size: 25px !important;
+    line-height: 35px !important;
+  }
+  .les__text-har::after {
+    width: 109% !important;
+    height: 100% !important;
+    left: -6px !important;
+    top: 4px !important;
   }
 }
 
@@ -1388,6 +1520,30 @@ body {
   }
   .lesson__h3 {
     font-size: 28px !important;
+  }
+  .lesson__great-text {
+    font-size: 18px !important;
+    line-height: 28px !important;
+  }
+  .les__text-har::after {
+    width: 106% !important;
+    height: 100% !important;
+    left: -3px !important;
+    top: 2px !important;
+  }
+}
+
+@media (max-width: 270px) {
+  .lesson__great-text {
+    padding-top: 50px !important;
+    font-size: 13px !important;
+    line-height: 22px !important;
+  }
+  .les__text-har::after {
+    width: 106% !important;
+    height: 100% !important;
+    left: -3px !important;
+    top: 2px !important;
   }
 }
 /*# sourceMappingURL=main.css.map */

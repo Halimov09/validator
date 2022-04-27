@@ -198,13 +198,13 @@ body{
 }
 
 .container2__col1{
-    width: 363px !important;
+    width: 363px;
 }
 .container2__col2{
-    width: 517px !important;
+    width: 517px;
 }
 .container2__col3{
-    width: 583px !important;
+    width: 583px;
 }
 .container2--col{
 
@@ -269,7 +269,11 @@ body{
     .nav__number{
         font-size: 60px;
     }
+    .nav__row--number{
+         display: flex;
+    }
     .container2--col{
+        width: 410px;
         p{
             font-size: 28px;
         }
@@ -282,6 +286,19 @@ body{
 }
 
 @media (max-width: 1265px){
+ 
+    .container2--col{
+        h4{
+            font-size: 50px !important;
+        }
+        p{
+            font-size: 22px !important;
+        }
+    }
+    .nav__number::before{
+        width: 160px !important;
+        height: 60px !important;
+    }
 
     .navbar-collapse{
         padding-left: 40px !important;
@@ -324,9 +341,6 @@ body{
             font-size: 24px;
         }
     }
-    .nav__row--number{
-        display: block !important;
-    }
     .nav__container2{
         padding-left: 55px !important;
         margin-top: 200px !important;
@@ -335,6 +349,12 @@ body{
         font-size: 50px !important;
     }
     
+}
+
+@media (max-width: 1195px){
+    .nav__row--number{
+        display: block !important;
+    }
 }
 
 @media (max-width: 991px){
@@ -387,7 +407,7 @@ body{
         line-height: 50px !important;
     }
     .container2--col{
-        width: 500px !important;
+        width: 400px;
     }
 
     .nav__number{
@@ -408,6 +428,7 @@ body{
     .navbar__sign{
         padding-left: 0px !important;;
     }
+    
 
 }
 
@@ -450,13 +471,13 @@ body{
         line-height: 40px !important;
     }
     .container2--col{
-        width: 350px !important;
+        width: 350px;
     }
     .nav__number{
-        font-size: 35px;
+        font-size: 35px !important;
     }
     .nav__number::before{
-        width: 150px;
+        width: 130px;
         height: 50px;
     }
     .nav__container2{
@@ -477,17 +498,18 @@ body{
         top: 590px;
     }
     .container2--col{
-        width: 240px !important;
+        max-width: 240px;
     }
-    
-   
+    .container2--col p{
+        font-size: 18px;
+    }
 }
 @media (max-width: 376px){
     .img-grup10{
         display: none;
     }
     .container2--col{
-        width: 150px !important;
+        max-width: 120px;
         p{
             font-size: 15px !important;
         }
@@ -498,11 +520,11 @@ body{
     }
    
     .nav__number::before{
-        width: 110px !important;
-        height: 40px !important;
+        width: 80px !important;
+        height: 30px !important;
     }
-    .nav__number{
-        font-size: 28px !important;
+    .container2--col h4{
+        font-size: 18px !important;
     }
 }
 

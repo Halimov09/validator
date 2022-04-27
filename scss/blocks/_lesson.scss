@@ -34,25 +34,25 @@
 
 .les--col1{
     p{
-        padding-left: 137px;
+        padding-left: 130px !important;
     }
 }
 
 .les--col2{
     p{
-        padding-left: 124px;
+        padding-left: 130px !important;
     }
 }
 
 .les--col3{
     p{
-        padding-left: 123px;
+        padding-left: 130px !important;
     }
 }
 
 .les--col4{
     p{
-        padding-left: 120px;
+        padding-left: 130px !important;
     }
 }
 
@@ -281,12 +281,6 @@
         h4{
             padding-left: 60px !important;
         }
-        .les__h4-1{
-            padding-left: 63px !important;
-        }
-        .les__h4-4{
-            padding-left: 60px !important;
-        }
         
     }
     .lesson__great-text{
@@ -318,10 +312,10 @@
             padding-left: 60px !important;
         }
         .les__h4-1{
-            padding-left: 63px !important;
+            padding-left: 60px !important;
         }
         .les__h4-4{
-            padding-left: 59px !important;
+            padding-left: 60px !important;
         }
         
     }
@@ -335,6 +329,7 @@
         width: 109% !important;
         height: 100% !important;
         left: -15px !important;
+        top: 6px !important;
     }
 
 }
@@ -349,7 +344,7 @@
         width: 109% !important;
         height: 100% !important;
         left: -10px !important;
-        top: 6px !important;
+        top: 5px !important;
     }
 }
 
@@ -386,7 +381,7 @@
         width: 109% !important;
         height: 100% !important;
         left: -6px !important;
-        top: 4px !important;
+        top: 3px !important;
     }
     
 
@@ -456,3 +451,4 @@
         top: 2px !important;
     }
 }
+//  lesson end

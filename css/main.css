@@ -2049,7 +2049,7 @@ body {
 
 @media (max-width: 436px) {
   .person__h4 {
-    font-size: 20px !important;
+    font-size: 30px !important;
     line-height: 25px;
   }
   .person__left-right .person__img-left {

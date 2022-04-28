@@ -1,11 +1,49 @@
 // person group start
 .person{
     margin-top: 120px;
+    .container{
+        overflow-x: auto;
+        margin-top: 50px;
+    }
+}
+
+.person{
+    .container::-webkit-scrollbar{
+        visibility: hidden;
+    }
+}
+
+.person__slider{
+    transition: .5s ease;
 }
 
 .person__left-right{
     top: 0;
     right: 15px;
+}
+
+.person__imgbox{
+    min-width: 570px;
+    h5{
+        padding-left: 30px;
+        padding-top: 50px;
+        font-family: 'oks';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 64px;
+        color: #000000;
+    }
+    p{
+        padding-left: 30px;
+        padding-top: 20px;
+        font-family: 'gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 48px;
+        color: #000000;
+    }
 }
 
 .person__img-left{
@@ -36,6 +74,17 @@
             }
         }
     }
+
+    .person__imgbox{
+        h5{
+            font-size: 50px;
+            line-height: 55px;
+        }
+        p{
+            font-size: 30px;
+            line-height: 42px;
+        }
+    }
 }
 
 @media (max-width: 795px){
@@ -64,6 +113,21 @@
             }
         }
     }
+    .person__imgbox{
+        min-width: 460px;
+        padding: 10px;
+        .person__user-img{
+            min-width: 440px;
+        }
+        h5{
+            font-size: 35px;
+            line-height: 35px;
+        }
+        p{
+            font-size: 25px;
+            line-height: 32px;
+        }
+    }
 }
 
 @media (max-width: 576px){
@@ -81,6 +145,23 @@
                 width: 40px;
                 height: auto;
             }
+        }
+    }
+    .person__imgbox{
+        min-width: 420px;
+        padding: 10px;
+        .person__user-img{
+            min-width: 400px;
+        }
+        h5{
+            padding-top: 25px;
+            font-size: 35px;
+            line-height: 35px;
+        }
+        p{
+            padding-top: 10px;
+            font-size: 25px;
+            line-height: 32px;
         }
     }
 }
@@ -102,9 +183,26 @@
             }
         }
     }
+    .person__imgbox{
+        min-width: 320px;
+        padding: 10px;
+        .person__user-img{
+            min-width: 300px;
+        }
+        h5{
+            padding-top: 20px;
+            font-size: 30px;
+            line-height: 30px;
+        }
+        p{
+            padding-top: 8px;
+            font-size: 20px;
+            line-height: 26px;
+        }
+    }
 }
 
-@media (max-width: 305px){
+@media (max-width: 318px){
     .person__h4{
         font-size: 18px !important;
         line-height: 22px;
@@ -121,5 +219,26 @@
             }
         }
     }
+
+    .person__imgbox{
+        min-width: 180px;
+        padding-left: 0px !important;
+        padding-right: 10px !important;
+        .person__user-img{
+            min-width: 160px;
+        }
+        h5{
+            padding-top: 15px;
+            font-size: 22px;
+            line-height: 25px;
+        }
+        p{
+            padding-top: 8px;
+            font-size: 12px;
+            line-height: 20px;
+        }
+    }
 }
+// person group end
+
 

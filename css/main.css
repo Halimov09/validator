@@ -1729,12 +1729,20 @@ body {
 @media (max-width: 795px) {
   .carusel__h4 {
     font-size: 50px;
+    padding-bottom: 30px;
   }
   .slider__name h6 {
     font-size: 35px;
   }
   .slider__name p {
     font-size: 24px;
+  }
+  .slider__img-left {
+    margin-right: 20px !important;
+  }
+  .slider__left-right {
+    left: 15px !important;
+    top: 75px;
   }
   .slider__left-right div img {
     width: 50px;
@@ -1760,6 +1768,9 @@ body {
   .carusel .container {
     height: 585px !important;
   }
+  .slider__img-left {
+    margin-right: 20px !important;
+  }
   .carusel__h4 {
     font-size: 35px;
   }
@@ -1770,10 +1781,8 @@ body {
     font-size: 18px;
   }
   .slider__left-right {
-    top: 20px;
-  }
-  .slider__left-right .slider__img-left {
-    margin-right: 32px !important;
+    left: 15px !important;
+    top: 75px;
   }
   .slider__left-right div img {
     width: 40px;
@@ -1807,8 +1816,14 @@ body {
   .slider__name p {
     font-size: 14px;
   }
+  .slider__img-left {
+    margin-right: 10px !important;
+  }
+  .slider__left-right {
+    top: 75px;
+  }
   .slider__left-right div img {
-    width: 30px;
+    width: 35px !important;
     height: auto;
   }
   .alltext {
@@ -1840,10 +1855,10 @@ body {
     font-size: 13px;
   }
   .slider__left-right .slider__img-left {
-    margin-right: 7px !important;
+    margin-right: 10px !important;
   }
   .slider__left-right div img {
-    width: 20px;
+    width: 30px;
     height: auto;
   }
   .alltext {
@@ -1887,9 +1902,49 @@ body {
   margin-top: 120px;
 }
 
+.person .container {
+  overflow-x: auto;
+  margin-top: 50px;
+}
+
+.person .container::-webkit-scrollbar {
+  visibility: hidden;
+}
+
+.person__slider {
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+
 .person__left-right {
   top: 0;
   right: 15px;
+}
+
+.person__imgbox {
+  min-width: 570px;
+}
+
+.person__imgbox h5 {
+  padding-left: 30px;
+  padding-top: 50px;
+  font-family: 'oks';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 64px;
+  color: #000000;
+}
+
+.person__imgbox p {
+  padding-left: 30px;
+  padding-top: 20px;
+  font-family: 'gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000000;
 }
 
 .person__img-left {
@@ -1912,6 +1967,14 @@ body {
   .person__left-right div img {
     width: 80px;
     height: auto;
+  }
+  .person__imgbox h5 {
+    font-size: 50px;
+    line-height: 55px;
+  }
+  .person__imgbox p {
+    font-size: 30px;
+    line-height: 42px;
   }
 }
 
@@ -1936,6 +1999,21 @@ body {
     width: 50px;
     height: auto;
   }
+  .person__imgbox {
+    min-width: 460px;
+    padding: 10px;
+  }
+  .person__imgbox .person__user-img {
+    min-width: 440px;
+  }
+  .person__imgbox h5 {
+    font-size: 35px;
+    line-height: 35px;
+  }
+  .person__imgbox p {
+    font-size: 25px;
+    line-height: 32px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -1949,6 +2027,23 @@ body {
   .person__left-right div img {
     width: 40px;
     height: auto;
+  }
+  .person__imgbox {
+    min-width: 420px;
+    padding: 10px;
+  }
+  .person__imgbox .person__user-img {
+    min-width: 400px;
+  }
+  .person__imgbox h5 {
+    padding-top: 25px;
+    font-size: 35px;
+    line-height: 35px;
+  }
+  .person__imgbox p {
+    padding-top: 10px;
+    font-size: 25px;
+    line-height: 32px;
   }
 }
 
@@ -1964,9 +2059,26 @@ body {
     width: 35px;
     height: auto;
   }
+  .person__imgbox {
+    min-width: 320px;
+    padding: 10px;
+  }
+  .person__imgbox .person__user-img {
+    min-width: 300px;
+  }
+  .person__imgbox h5 {
+    padding-top: 20px;
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .person__imgbox p {
+    padding-top: 8px;
+    font-size: 20px;
+    line-height: 26px;
+  }
 }
 
-@media (max-width: 305px) {
+@media (max-width: 318px) {
   .person__h4 {
     font-size: 18px !important;
     line-height: 22px;
@@ -1977,6 +2089,24 @@ body {
   .person__left-right div img {
     width: 30px;
     height: auto;
+  }
+  .person__imgbox {
+    min-width: 180px;
+    padding-left: 0px !important;
+    padding-right: 10px !important;
+  }
+  .person__imgbox .person__user-img {
+    min-width: 160px;
+  }
+  .person__imgbox h5 {
+    padding-top: 15px;
+    font-size: 22px;
+    line-height: 25px;
+  }
+  .person__imgbox p {
+    padding-top: 8px;
+    font-size: 12px;
+    line-height: 20px;
   }
 }
 /*# sourceMappingURL=main.css.map */

@@ -141,6 +141,7 @@
 @media (max-width: 795px){
     .carusel__h4{
         font-size: 50px;
+        padding-bottom: 30px;
     }
     .slider__name{
         h6{
@@ -151,7 +152,12 @@
         }
     
     }
+    .slider__img-left{
+        margin-right: 20px !important;
+    }
     .slider__left-right{
+        left: 15px !important;
+        top: 75px;
         div{
             img{
                 width: 50px;
@@ -183,6 +189,9 @@
             height: 585px !important;
         }
     }
+    .slider__img-left{
+        margin-right: 20px !important;
+    }
     .carusel__h4{
         font-size: 35px;
     }
@@ -196,10 +205,8 @@
     
     }
     .slider__left-right{
-        top: 20px;
-        .slider__img-left{
-            margin-right: 32px !important;
-        }
+        left: 15px !important;
+        top: 75px;
         div{
             img{
                 width: 40px;
@@ -240,10 +247,14 @@
         }
     
     }
+    .slider__img-left{
+        margin-right: 10px !important;
+    }
     .slider__left-right{
+        top: 75px;
         div{
             img{
-                width: 30px;
+                width: 35px !important;
                 height: auto;
             }
         }
@@ -284,11 +295,11 @@
     }
     .slider__left-right{
         .slider__img-left{
-            margin-right: 7px !important;
+            margin-right: 10px !important;
         }
         div{
             img{
-                width: 20px;
+                width: 30px;
                 height: auto;
             }
         }

@@ -225,7 +225,7 @@
 
      <!-- slider text start -->
      <main class="carusel overflow-hidden">
-       <div class="container main-container position-relative p-0 justify-content-between">
+       <div class="container main-container carusel__container position-relative p-0 justify-content-between">
         <h4 class="carusel__h4 m-0">Наши ученики</h4>
         <div class="slider__left-right position-absolute align-items-center d-flex">
           <div class="slider__img-left" id="right">
@@ -284,44 +284,78 @@
      </main>
 <!-- slider text end -->
 
-<!-- person group start -->
+<!-- person slider group start -->
 <div class="person">
 
-  <div class="container main-container p-0 d-flex align-items-center justify-content-between person__container1 border position-relative">
+  <div class="container main-container p-0 d-flex align-items-center justify-content-between person__container1  position-relative">
     <h4 class="person__h4">Наша команда профессионалов</h4>
     <div class="person__left-right d-flex align-items-center">
-      <div class="person__img-left" id="right">
+      <div class="person__img-left" id="perright">
         <img src="img/Group26.svg" class="img-fluid" alt="">
       </div>
-      <div class="person__img-right" id="left">
+      <div class="person__img-right" id="perleft">
         <img src="img/Group25.svg" class="img-fluid" alt="">
       </div>
     </div>
   </div>
 
-  <section>
-    <div class="container main-container p-0">
-      <div class="row">
-        <div class="col-12 col-lg-4 text-center text-lg-left">
+  <section class="person__container2">
+    <div class="container  main-container p-0">
+      <div class="d-flex person__slider">
+        <div class="person__imgbox">
           <div class="person__user-img">
             <img src="img/Rectangle30(1).png" class="img-fluid" alt="">
+            <h5>анна</h5>
+            <p>Преподаватель <br> английского языка</p>
           </div>
         </div>
-        <div class="col-12 col-lg-4 text-center text-lg-left">
+        <div class="person__imgbox">
           <div class="person__user-img">
             <img src="img/Rectangle31(1).png" class="img-fluid" alt="">
+            <h5>Эвгений</h5>
+            <p>Преподаватель <br> испанского языка</p>
           </div>
         </div>
-        <div class="col-12 col-lg-4 text-center text-lg-left">
+        <div class="person__imgbox">
           <div class="person__user-img">
             <img src="img/Rectangle32(1).png" class="img-fluid" alt="">
+            <h5>майк</h5>
+            <p>Преподаватель <br> английского языка</p>
           </div>
         </div>
+        <div class="person__imgbox">
+          <div class="person__user-img">
+            <img src="img/Rectangle30(1).png" class="img-fluid" alt="">
+            <h5>анна</h5>
+            <p>Преподаватель <br> английского языка</p>
+          </div>
+        </div>
+        <div class="person__imgbox">
+          <div class="person__user-img">
+            <img src="img/Rectangle31(1).png" class="img-fluid" alt="">
+            <h5>Эвгений</h5>
+            <p>Преподаватель <br> испанского языка</p>
+          </div>
+        </div>
+        <div class="person__imgbox">
+          <div class="person__user-img">
+            <img src="img/Rectangle32(1).png" class="img-fluid" alt="">
+            <h5>майк</h5>
+            <p>Преподаватель <br> английского языка</p>
+          </div>
+        </div>
+
+        
       </div>
     </div>
   </section>
 
 </div>
+<!-- person slider group end -->
+
+
+
+
 
 
     
@@ -332,5 +366,6 @@
     <script src="js/jquery-3.4.1.slim.min.js"></script>
     <script src="js/bootstrap.bundle.js"></script>
     <script src="js/slidertext.js"></script>
+    <script src="js/personslider.js"></script>
 </body>
 </html>

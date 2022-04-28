@@ -503,6 +503,12 @@ body{
     .container2--col p{
         font-size: 18px;
     }
+    .nav__container2{
+        padding-left: 20px !important;
+    }
+    .nav__number::before{
+        left: -10px !important;
+    }
 }
 @media (max-width: 376px){
     .img-grup10{

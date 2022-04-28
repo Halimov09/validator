@@ -72,20 +72,21 @@
 
 @media(max-width: 976px){
     .test__h5{
-        padding-left: 15px !important;
+        padding-left: 0px !important;
     }
 
     .test__p{
-        padding-left: 15px !important;
+        padding-left: 0px !important;
     }
 
     .test__button{
-        margin-left: 15px !important;
+        margin-left: 0px !important;
     }
 
     .test__img12{
         top: 880px !important;
         left: 10px !important;
+        width: 100px !important;
     }
     .test__img11{
         right: 70px !important;
@@ -111,12 +112,12 @@
     .test__img12{
         top: 1090px !important;
         left: 50px !important;
-        width: 120px !important;
+        width: 90px !important;
     }
     .test__img11{
         right: 10px !important;
         top: 20px !important;
-        width: 120px !important;
+        width: 90px !important;
     }
 }
 
@@ -130,23 +131,38 @@
 
     }
     .test__h5{
-        font-size: 35px !important;
-        line-height: 38px !important;
+        font-size: 25px !important;
+        line-height: 30px !important;
     }
     .test__p{
-        font-size: 17px !important;
-        line-height: 30px !important;
+        font-size: 16px !important;
+        line-height: 28px !important;
         padding-top: 30px !important;
     }
     .test__img12{
         top: 990px !important;
-        left: 50px !important;
+        left: 20px !important;
+        width: 80px !important;
     }
+
 }
 
 @media(max-width: 376px){
     .test__img12{
-        top: 680px !important;
+        top: 650px !important;
+    }
+
+    .test__h5{
+        font-size: 20px !important;
+        line-height: 25px !important;
+    }
+    .test__p{
+        font-size: 14px !important;
+        line-height: 22px !important;
+        padding-top: 30px !important;
+    }
+    .test__img11{
+        display: none !important;
     }
 }
 

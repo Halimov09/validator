@@ -1,0 +1,125 @@
+// person group start
+.person{
+    margin-top: 120px;
+}
+
+.person__left-right{
+    top: 0;
+    right: 15px;
+}
+
+.person__img-left{
+    margin-right: 50px;
+}
+
+.person__h4{
+    font-family: 'oks';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 72px;
+    color: #000000;
+}
+
+
+
+@media (max-width: 1000px){
+    .person__h4{
+        font-size: 60px !important;
+    }
+
+    .person__left-right{
+        div{
+            img{
+                width: 80px;
+                height: auto;
+            }
+        }
+    }
+}
+
+@media (max-width: 795px){
+    .person__img-left{
+        margin-right: 30px !important;
+    }
+    .person__container1{
+        display: block !important;
+    }
+    .person__h4{
+        font-size: 45px !important;
+    }
+
+    .person__left-right{
+        left: 15px !important;
+        padding-top: 15px;
+        div{
+            .person__img-right{
+                img{
+                    margin-left: 20px !important;
+                }
+            }
+            img{
+                width: 50px;
+                height: auto;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px){
+    .person__h4{
+        font-size: 30px !important;
+        line-height: 40px;
+    }
+
+    .person__img-left{
+        margin-right: 20px !important;
+    }
+    .person__left-right{
+        div{
+            img{
+                width: 40px;
+                height: auto;
+            }
+        }
+    }
+}
+
+@media (max-width: 436px){
+    .person__h4{
+        font-size: 20px !important;
+        line-height: 25px;
+    }
+
+    .person__left-right{
+        .person__img-left{
+            margin-right: 10px !important;
+        }
+        div{
+            img{
+                width: 35px;
+                height: auto;
+            }
+        }
+    }
+}
+
+@media (max-width: 305px){
+    .person__h4{
+        font-size: 18px !important;
+        line-height: 22px;
+    }
+
+    .person__left-right{
+        .person__img-left{
+            margin-right: 10px !important;
+        }
+        div{
+            img{
+                width: 30px;
+                height: auto;
+            }
+        }
+    }
+}
+

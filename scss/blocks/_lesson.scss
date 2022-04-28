@@ -52,7 +52,7 @@
 
 .les--col4{
     p{
-        padding-left: 130px !important;
+        padding-left: 120px !important;
     }
 }
 
@@ -93,6 +93,10 @@
 .lesson__coll{
     position: relative;
     left: -29px;
+}
+
+.les__h4-1{
+    padding-left: 90px !important;
 }
 
 .les__h4-1::before{
@@ -274,7 +278,7 @@
         }
     }
     .lesson__h3{
-        padding-left: 15px;
+        padding-left: 0px !important;
     }
 
     .lesson__col{
@@ -402,7 +406,7 @@
         }
         p{
             font-size: 14px !important;
-            padding-left: 45px !important;
+            padding-left: 25px !important;
         }
     }
 
@@ -411,15 +415,15 @@
             padding-left: 30px !important;
         }
         .les__h4-1{
-            padding-left: 33px !important;
+            padding-left: 30px !important;
         }
         .les__h4-4{
-            padding-left: 29px !important;
+            padding-left: 30px !important;
         }
         
     }
     .lesson__h3{
-        font-size: 28px !important;
+        font-size: 22px !important;
     }
 
     .lesson__great-text{
@@ -440,15 +444,15 @@
 @media (max-width: 270px){
     .lesson__great-text{
         padding-top: 50px !important;
-        font-size: 13px !important;
-        line-height: 22px !important;
+        font-size: 11px !important;
+        line-height: 20px !important;
     }
 
     .les__text-har::after{
         width: 106% !important;
         height: 100% !important;
-        left: -3px !important;
-        top: 2px !important;
+        left: -1px !important;
+        top: 1px !important;
     }
 }
 //  lesson end

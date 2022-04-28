@@ -1,11 +1,14 @@
 // slider text start
 .carusel{
     margin-top: 120px;
+    .container{
+        height: 558px !important;
+    }
 }
 
 .slider__left-right{
     top: 0;
-    right: 0;
+    right: 15px;
 }
 
 .slider__img-left{
@@ -19,6 +22,9 @@
 .carusel__section{
     overflow-x: auto;
     margin-top: 50px;
+    top: 100px !important;
+    left: 15px !important;
+    transition: all 0.5s ease;
 }
 
 .carusel__h4{
@@ -53,6 +59,10 @@
 
 .slider__david{
     min-width: 974px;
+}
+
+.slider__all{
+    transition: .5s ease;
 }
 
 .david__text{
@@ -110,6 +120,12 @@
         }
     }
 
+    .carusel{
+        .container{
+            height: 598px !important;
+        }
+    }
+
     .alltext{
         width: 630px;
         p{
@@ -162,6 +178,11 @@
 }
 
 @media (max-width: 576px){
+    .carusel{
+        .container{
+            height: 585px !important;
+        }
+    }
     .carusel__h4{
         font-size: 35px;
     }
@@ -177,7 +198,7 @@
     .slider__left-right{
         top: 20px;
         .slider__img-left{
-            margin-right: 30px !important;
+            margin-right: 32px !important;
         }
         div{
             img{
@@ -263,7 +284,7 @@
     }
     .slider__left-right{
         .slider__img-left{
-            margin-right: 10px !important;
+            margin-right: 7px !important;
         }
         div{
             img{
@@ -275,7 +296,7 @@
 
     .alltext{
         width: 150px;
-        padding: 10px;
+        padding: 12px !important;
         margin-left: 4px;
         p{
             font-size: 10px;
@@ -307,7 +328,12 @@
     }
     .nav__col1{
         h2{
-            font-size: 26px !important;
+            font-size: 20px !important;
+            line-height: 25px !important;
+        }
+        p{
+            font-size: 18px !important;
+            line-height: 20px !important;
         }
     }
 }

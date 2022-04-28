@@ -862,6 +862,12 @@ body {
   .container2--col p {
     font-size: 18px;
   }
+  .nav__container2 {
+    padding-left: 20px !important;
+  }
+  .nav__number::before {
+    left: -10px !important;
+  }
 }
 
 @media (max-width: 376px) {
@@ -931,15 +937,15 @@ body {
 }
 
 .language__col1 {
-  padding-right: 20px;
+  padding-right: 20px !important;
 }
 
 .language__col2 {
-  padding: 0px 10px 0px 10px;
+  padding: 0px 10px 0px 10px !important;
 }
 
 .language__col3 {
-  padding-left: 20px;
+  padding-left: 20px !important;
 }
 
 .laguage__row2 {
@@ -975,13 +981,13 @@ body {
     margin-top: 8px !important;
   }
   .language__col1 {
-    padding-right: 0px 15px 0px 15px !important;
+    padding: 0px !important;
   }
   .language__col2 {
-    padding: 0px 15px 0px 15px !important;
+    padding: 0px !important;
   }
   .language__col3 {
-    padding-left: 0px 15px 0px 15px !important;
+    padding: 0px !important;
   }
   .laguage__row2 {
     margin-top: 0px 15px 0px 15px !important;
@@ -1018,6 +1024,10 @@ body {
 }
 
 @media (max-width: 376px) {
+  .language__choose {
+    font-size: 20px !important;
+    line-height: 26px !important;
+  }
   .language__img h6 {
     font-size: 15px !important;
     padding-left: 15px !important;
@@ -1107,17 +1117,18 @@ body {
 
 @media (max-width: 976px) {
   .test__h5 {
-    padding-left: 15px !important;
+    padding-left: 0px !important;
   }
   .test__p {
-    padding-left: 15px !important;
+    padding-left: 0px !important;
   }
   .test__button {
-    margin-left: 15px !important;
+    margin-left: 0px !important;
   }
   .test__img12 {
     top: 880px !important;
     left: 10px !important;
+    width: 100px !important;
   }
   .test__img11 {
     right: 70px !important;
@@ -1140,12 +1151,12 @@ body {
   .test__img12 {
     top: 1090px !important;
     left: 50px !important;
-    width: 120px !important;
+    width: 90px !important;
   }
   .test__img11 {
     right: 10px !important;
     top: 20px !important;
-    width: 120px !important;
+    width: 90px !important;
   }
 }
 
@@ -1157,23 +1168,36 @@ body {
     margin-top: 50px !important;
   }
   .test__h5 {
-    font-size: 35px !important;
-    line-height: 38px !important;
+    font-size: 25px !important;
+    line-height: 30px !important;
   }
   .test__p {
-    font-size: 17px !important;
-    line-height: 30px !important;
+    font-size: 16px !important;
+    line-height: 28px !important;
     padding-top: 30px !important;
   }
   .test__img12 {
     top: 990px !important;
-    left: 50px !important;
+    left: 20px !important;
+    width: 80px !important;
   }
 }
 
 @media (max-width: 376px) {
   .test__img12 {
-    top: 680px !important;
+    top: 650px !important;
+  }
+  .test__h5 {
+    font-size: 20px !important;
+    line-height: 25px !important;
+  }
+  .test__p {
+    font-size: 14px !important;
+    line-height: 22px !important;
+    padding-top: 30px !important;
+  }
+  .test__img11 {
+    display: none !important;
   }
 }
 
@@ -1223,7 +1247,7 @@ body {
 }
 
 .les--col4 p {
-  padding-left: 130px !important;
+  padding-left: 120px !important;
 }
 
 .lesson__row2 {
@@ -1267,6 +1291,10 @@ body {
 .lesson__coll {
   position: relative;
   left: -29px;
+}
+
+.les__h4-1 {
+  padding-left: 90px !important;
 }
 
 .les__h4-1::before {
@@ -1430,7 +1458,7 @@ body {
     font-size: 18px !important;
   }
   .lesson__h3 {
-    padding-left: 15px;
+    padding-left: 0px !important;
   }
   .lesson__col h4 {
     padding-left: 60px !important;
@@ -1530,19 +1558,19 @@ body {
   }
   .lesson__col p {
     font-size: 14px !important;
-    padding-left: 45px !important;
+    padding-left: 25px !important;
   }
   .lesson__col h4 {
     padding-left: 30px !important;
   }
   .lesson__col .les__h4-1 {
-    padding-left: 33px !important;
+    padding-left: 30px !important;
   }
   .lesson__col .les__h4-4 {
-    padding-left: 29px !important;
+    padding-left: 30px !important;
   }
   .lesson__h3 {
-    font-size: 28px !important;
+    font-size: 22px !important;
   }
   .lesson__great-text {
     font-size: 18px !important;
@@ -1559,14 +1587,14 @@ body {
 @media (max-width: 270px) {
   .lesson__great-text {
     padding-top: 50px !important;
-    font-size: 13px !important;
-    line-height: 22px !important;
+    font-size: 11px !important;
+    line-height: 20px !important;
   }
   .les__text-har::after {
     width: 106% !important;
     height: 100% !important;
-    left: -3px !important;
-    top: 2px !important;
+    left: -1px !important;
+    top: 1px !important;
   }
 }
 
@@ -1574,9 +1602,13 @@ body {
   margin-top: 120px;
 }
 
+.carusel .container {
+  height: 558px !important;
+}
+
 .slider__left-right {
   top: 0;
-  right: 0;
+  right: 15px;
 }
 
 .slider__img-left {
@@ -1590,6 +1622,10 @@ body {
 .carusel__section {
   overflow-x: auto;
   margin-top: 50px;
+  top: 100px !important;
+  left: 15px !important;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 .carusel__h4 {
@@ -1622,6 +1658,11 @@ body {
 
 .slider__david {
   min-width: 974px;
+}
+
+.slider__all {
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
 }
 
 .david__text {
@@ -1671,6 +1712,9 @@ body {
     width: 80px;
     height: auto;
   }
+  .carusel .container {
+    height: 598px !important;
+  }
   .alltext {
     width: 630px;
   }
@@ -1713,6 +1757,9 @@ body {
 }
 
 @media (max-width: 576px) {
+  .carusel .container {
+    height: 585px !important;
+  }
   .carusel__h4 {
     font-size: 35px;
   }
@@ -1726,7 +1773,7 @@ body {
     top: 20px;
   }
   .slider__left-right .slider__img-left {
-    margin-right: 30px !important;
+    margin-right: 32px !important;
   }
   .slider__left-right div img {
     width: 40px;
@@ -1793,7 +1840,7 @@ body {
     font-size: 13px;
   }
   .slider__left-right .slider__img-left {
-    margin-right: 10px !important;
+    margin-right: 7px !important;
   }
   .slider__left-right div img {
     width: 20px;
@@ -1801,7 +1848,7 @@ body {
   }
   .alltext {
     width: 150px;
-    padding: 10px;
+    padding: 12px !important;
     margin-left: 4px;
   }
   .alltext p {
@@ -1827,7 +1874,109 @@ body {
     font-size: 12px !important;
   }
   .nav__col1 h2 {
-    font-size: 26px !important;
+    font-size: 20px !important;
+    line-height: 25px !important;
+  }
+  .nav__col1 p {
+    font-size: 18px !important;
+    line-height: 20px !important;
+  }
+}
+
+.person {
+  margin-top: 120px;
+}
+
+.person__left-right {
+  top: 0;
+  right: 15px;
+}
+
+.person__img-left {
+  margin-right: 50px;
+}
+
+.person__h4 {
+  font-family: 'oks';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 72px;
+  color: #000000;
+}
+
+@media (max-width: 1000px) {
+  .person__h4 {
+    font-size: 60px !important;
+  }
+  .person__left-right div img {
+    width: 80px;
+    height: auto;
+  }
+}
+
+@media (max-width: 795px) {
+  .person__img-left {
+    margin-right: 30px !important;
+  }
+  .person__container1 {
+    display: block !important;
+  }
+  .person__h4 {
+    font-size: 45px !important;
+  }
+  .person__left-right {
+    left: 15px !important;
+    padding-top: 15px;
+  }
+  .person__left-right div .person__img-right img {
+    margin-left: 20px !important;
+  }
+  .person__left-right div img {
+    width: 50px;
+    height: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .person__h4 {
+    font-size: 30px !important;
+    line-height: 40px;
+  }
+  .person__img-left {
+    margin-right: 20px !important;
+  }
+  .person__left-right div img {
+    width: 40px;
+    height: auto;
+  }
+}
+
+@media (max-width: 436px) {
+  .person__h4 {
+    font-size: 20px !important;
+    line-height: 25px;
+  }
+  .person__left-right .person__img-left {
+    margin-right: 10px !important;
+  }
+  .person__left-right div img {
+    width: 35px;
+    height: auto;
+  }
+}
+
+@media (max-width: 305px) {
+  .person__h4 {
+    font-size: 18px !important;
+    line-height: 22px;
+  }
+  .person__left-right .person__img-left {
+    margin-right: 10px !important;
+  }
+  .person__left-right div img {
+    width: 30px;
+    height: auto;
   }
 }
 /*# sourceMappingURL=main.css.map */

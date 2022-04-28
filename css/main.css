@@ -2109,4 +2109,121 @@ body {
     line-height: 20px;
   }
 }
+
+.connection {
+  margin-top: 80px;
+}
+
+.connection__h4 {
+  font-family: 'oks';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 72px;
+  color: #000000;
+}
+
+.connection__p {
+  font-family: 'gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  color: #000000;
+  padding-top: 50px;
+}
+
+.connection__col1 {
+  padding-right: 25px !important;
+}
+
+.connection__col2 {
+  padding-left: 25px !important;
+}
+
+.connection__container-1 {
+  margin-top: 56px;
+}
+
+.connection__box input, .connection__box .connection__button {
+  height: 80px;
+  opacity: 0.7;
+  border: 2px solid #000000 !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 40px;
+  padding-left: 50px;
+  font-family: 'gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  color: #000000;
+  opacity: 0.7;
+}
+
+.connection__button {
+  margin-top: 24px;
+  background: #1387F2;
+  border-radius: 40px;
+  color: #FFFFFF !important;
+}
+
+.connection__button:focus {
+  background-color: #1387F2;
+}
+
+.connection__row2 {
+  margin-top: 6px !important;
+}
+
+@media (max-width: 991px) {
+  .connection__col1 {
+    padding-right: 0px !important;
+  }
+  .connection__col2 {
+    padding-left: 0px !important;
+  }
+}
+
+@media (max-width: 721px) {
+  .connection__h4 {
+    font-size: 55px;
+  }
+  .connection__p {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 576px) {
+  .connection__box input, .connection__box .connection__button {
+    height: 70px;
+    border-radius: 40px;
+    padding-left: 20px;
+    font-size: 20px;
+  }
+  .connection__h4 {
+    font-size: 35px;
+  }
+  .connection__p {
+    font-size: 22px;
+    line-height: 28px;
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 336px) {
+  .connection__h4 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .connection__p {
+    font-size: 18px;
+    line-height: 25px;
+    padding-top: 10px;
+  }
+  .connection__box input, .connection__box .connection__button {
+    height: 60px;
+  }
+}
 /*# sourceMappingURL=main.css.map */

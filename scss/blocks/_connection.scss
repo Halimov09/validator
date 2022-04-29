@@ -54,12 +54,9 @@
 
 .connection__button{
     margin-top: 24px;
-    background: #1387F2;
+    background: #1387F2 !important;
     border-radius: 40px;
     color: #FFFFFF !important;
-}
-.connection__button:focus{
-    background-color: #1387F2;
 }
 
 .connection__row2{

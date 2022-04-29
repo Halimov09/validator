@@ -7,6 +7,12 @@
     }
 }
 
+.ming{
+    display: none !important;
+
+
+}
+
 .person{
     .container::-webkit-scrollbar{
         visibility: hidden;
@@ -62,11 +68,21 @@
 
 
 @media (max-width: 1000px){
+    .ming{
+        display: flex !important;
+        justify-content: center;
+        bottom: -50px;
+        right: 15px;
+        div:active{
+            background-color: aqua !important;
+        }
+    }
     .person__h4{
         font-size: 60px !important;
     }
 
     .person__left-right{
+        display: none !important;
         div{
             img{
                 width: 80px;
@@ -76,6 +92,11 @@
     }
 
     .person__imgbox{
+        min-width: 100% !important;
+        .person__user-img{
+            min-height: 100% !important;
+            text-align: center !important;
+        }
         h5{
             font-size: 50px;
             line-height: 55px;
@@ -240,5 +261,7 @@
     }
 }
 // person group end
+
+
 
 

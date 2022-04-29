@@ -1,6 +1,7 @@
 // <!-- footer start -->
 .footer{
     margin-top: 60px;
+    background-color: rgb(209, 205, 205);
 }
 
 .footer__all-css{
@@ -85,6 +86,30 @@
     }
     .footer__whatsap{
         padding: 0px !important;
+    }
+}
+
+
+@media (max-width: 576px){
+    .footer__h5{
+        font-size: 30px !important;
+    }
+    .footer{
+        .container{
+            p{
+                font-size: 20px !important;
+            }
+        }
+    }
+
+    .footer__h5bottom{
+        font-size: 30px !important;
+    }
+
+    .footer__colbottom{
+        a{
+            font-size: 20px !important;
+        }
     }
 }
 

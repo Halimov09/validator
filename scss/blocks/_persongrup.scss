@@ -116,7 +116,8 @@
         display: block !important;
     }
     .person__h4{
-        font-size: 45px !important;
+        font-size: 50px !important;
+        line-height: 50px !important;
     }
 
     .person__left-right{
@@ -190,7 +191,7 @@
 @media (max-width: 436px){
     .person__h4{
         font-size: 30px !important;
-        line-height: 25px;
+        line-height: 40px;
     }
 
     .person__left-right{
@@ -225,8 +226,8 @@
 
 @media (max-width: 318px){
     .person__h4{
-        font-size: 18px !important;
-        line-height: 22px;
+        font-size: 20px !important;
+        line-height: 25px ;
     }
 
     .person__left-right{

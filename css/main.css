@@ -778,7 +778,10 @@ body {
     line-height: 50px !important;
   }
   .container2--col {
-    width: 400px;
+    max-width: 100%;
+  }
+  .container2--col h4 {
+    font-size: 40px !important;
   }
   .nav__number {
     font-size: 40px;
@@ -812,7 +815,7 @@ body {
     padding-top: 0px;
   }
   .nav__col1 p {
-    font-size: 20px;
+    font-size: 24px;
   }
   .nav__li-uchit {
     width: 180px;
@@ -828,11 +831,14 @@ body {
     line-height: 50px;
   }
   .container__h4 {
-    font-size: 30px !important;
-    line-height: 40px !important;
+    font-size: 50px !important;
+    line-height: 50px !important;
   }
   .container2--col {
-    width: 350px;
+    max-width: 100%;
+  }
+  .container2--col p {
+    font-size: 24px !important;
   }
   .nav__number {
     font-size: 35px !important;
@@ -860,13 +866,16 @@ body {
     max-width: 240px;
   }
   .container2--col p {
-    font-size: 18px;
+    font-size: 20px !important;
   }
   .nav__container2 {
     padding-left: 20px !important;
   }
   .nav__number::before {
     left: -10px !important;
+  }
+  .container__h4 {
+    font-size: 30px !important;
   }
 }
 
@@ -875,10 +884,10 @@ body {
     display: none;
   }
   .container2--col {
-    max-width: 120px;
+    max-width: 100%;
   }
   .container2--col p {
-    font-size: 15px !important;
+    font-size: 16px !important;
   }
   .container__h4 {
     font-size: 20px !important;
@@ -888,7 +897,7 @@ body {
     height: 30px !important;
   }
   .container2--col h4 {
-    font-size: 18px !important;
+    font-size: 20px !important;
   }
 }
 
@@ -968,7 +977,7 @@ body {
 
 @media (max-width: 976px) {
   .language__choose {
-    font-size: 48px !important;
+    font-size: 40px !important;
   }
   .language__img h6 {
     font-size: 30px;
@@ -996,10 +1005,10 @@ body {
 
 @media (max-width: 720px) {
   .language__choose {
-    font-size: 36px !important;
+    font-size: 50px !important;
   }
   .language__img h6 {
-    font-size: 26px;
+    font-size: 24px;
     padding-left: 15px !important;
   }
   .language__img img {
@@ -1009,8 +1018,8 @@ body {
 
 @media (max-width: 576px) {
   .language__choose {
-    font-size: 35px !important;
-    line-height: 30px !important;
+    font-size: 30px !important;
+    line-height: 40px !important;
   }
   .language__img h6 {
     font-size: 20px;
@@ -1026,10 +1035,10 @@ body {
 @media (max-width: 376px) {
   .language__choose {
     font-size: 20px !important;
-    line-height: 26px !important;
+    line-height: 25px !important;
   }
   .language__img h6 {
-    font-size: 15px !important;
+    font-size: 16px !important;
     padding-left: 15px !important;
   }
   .language__img img {
@@ -1143,10 +1152,12 @@ body {
     height: 60px !important;
   }
   .test__h5 {
-    font-size: 55px !important;
+    font-size: 50px !important;
+    line-height: 50px !important;
   }
   .test__p {
-    font-size: 25px !important;
+    font-size: 24px !important;
+    line-height: 38px !important;
   }
   .test__img12 {
     top: 1090px !important;
@@ -1168,11 +1179,11 @@ body {
     margin-top: 50px !important;
   }
   .test__h5 {
-    font-size: 25px !important;
-    line-height: 30px !important;
+    font-size: 30px !important;
+    line-height: 40px !important;
   }
   .test__p {
-    font-size: 16px !important;
+    font-size: 20px !important;
     line-height: 28px !important;
     padding-top: 30px !important;
   }
@@ -1192,7 +1203,7 @@ body {
     line-height: 25px !important;
   }
   .test__p {
-    font-size: 14px !important;
+    font-size: 16px !important;
     line-height: 22px !important;
     padding-top: 30px !important;
   }
@@ -1475,9 +1486,6 @@ body {
 }
 
 @media (max-width: 868px) {
-  .lesson__col p {
-    line-height: 22px !important;
-  }
   .lesson__h3 {
     font-size: 55px !important;
   }
@@ -1513,12 +1521,19 @@ body {
     left: -10px !important;
     top: 5px !important;
   }
+  .lesson__h3 {
+    font-size: 50px !important;
+    line-height: 50px !important;
+  }
+  .lesson__col p {
+    font-size: 24px !important;
+  }
 }
 
 @media (max-width: 576px) {
   .lesson__h3 {
     font-size: 30px !important;
-    line-height: 30px !important;
+    line-height: 40px !important;
   }
   .les__h4-4::before {
     top: 35px !important;
@@ -1532,7 +1547,7 @@ body {
     top: 35px !important;
   }
   .lesson__col p {
-    font-size: 16px !important;
+    font-size: 20px !important;
     padding-left: 50px !important;
   }
   .lesson__great-text {
@@ -1570,7 +1585,8 @@ body {
     padding-left: 30px !important;
   }
   .lesson__h3 {
-    font-size: 22px !important;
+    font-size: 20px !important;
+    line-height: 25px !important;
   }
   .lesson__great-text {
     font-size: 18px !important;
@@ -1587,7 +1603,7 @@ body {
 @media (max-width: 270px) {
   .lesson__great-text {
     padding-top: 50px !important;
-    font-size: 11px !important;
+    font-size: 16px !important;
     line-height: 20px !important;
   }
   .les__text-har::after {
@@ -1772,7 +1788,7 @@ body {
     margin-right: 20px !important;
   }
   .carusel__h4 {
-    font-size: 35px;
+    font-size: 30px;
   }
   .slider__name h6 {
     font-size: 25px;
@@ -1808,7 +1824,7 @@ body {
 
 @media (max-width: 436px) {
   .carusel__h4 {
-    font-size: 28px;
+    font-size: 30px;
   }
   .slider__name h6 {
     font-size: 18px;
@@ -1846,7 +1862,8 @@ body {
 
 @media (max-width: 305px) {
   .carusel__h4 {
-    font-size: 18px;
+    font-size: 20px !important;
+    line-height: 25px !important;
   }
   .slider__name h6 {
     font-size: 16px;
@@ -1883,17 +1900,17 @@ body {
     font-size: 14px;
   }
   .test__h5 {
-    font-size: 24px !important;
+    font-size: 20px !important;
   }
   .lesson__coll p {
-    font-size: 12px !important;
+    font-size: 16px !important;
   }
   .nav__col1 h2 {
     font-size: 20px !important;
     line-height: 25px !important;
   }
   .nav__col1 p {
-    font-size: 18px !important;
+    font-size: 16px !important;
     line-height: 20px !important;
   }
 }
@@ -2017,7 +2034,8 @@ body {
     display: block !important;
   }
   .person__h4 {
-    font-size: 45px !important;
+    font-size: 50px !important;
+    line-height: 50px !important;
   }
   .person__left-right {
     left: 15px !important;
@@ -2081,7 +2099,7 @@ body {
 @media (max-width: 436px) {
   .person__h4 {
     font-size: 30px !important;
-    line-height: 25px;
+    line-height: 40px;
   }
   .person__left-right .person__img-left {
     margin-right: 10px !important;
@@ -2111,8 +2129,8 @@ body {
 
 @media (max-width: 318px) {
   .person__h4 {
-    font-size: 18px !important;
-    line-height: 22px;
+    font-size: 20px !important;
+    line-height: 25px;
   }
   .person__left-right .person__img-left {
     margin-right: 10px !important;
@@ -2215,10 +2233,15 @@ body {
 
 @media (max-width: 721px) {
   .connection__h4 {
-    font-size: 55px;
+    font-size: 50px;
+    line-height: 50px;
   }
   .connection__p {
-    font-size: 28px;
+    font-size: 24px;
+    line-height: 38px;
+  }
+  input, button {
+    font-size: 24px !important;
   }
 }
 
@@ -2230,10 +2253,11 @@ body {
     font-size: 20px;
   }
   .connection__h4 {
-    font-size: 35px;
+    font-size: 30px;
+    line-height: 40px;
   }
   .connection__p {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 28px;
     padding-top: 20px;
   }
@@ -2241,12 +2265,12 @@ body {
 
 @media (max-width: 336px) {
   .connection__h4 {
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 25px;
   }
   .connection__p {
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 16px;
+    line-height: 22px;
     padding-top: 10px;
   }
   .connection__box input, .connection__box .connection__button {
@@ -2342,6 +2366,16 @@ body {
   }
 }
 
+@media (max-width: 720px) {
+  .footer__h5 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .footer__all-css {
+    font-size: 24px;
+  }
+}
+
 @media (max-width: 576px) {
   .footer__h5 {
     font-size: 30px !important;
@@ -2362,7 +2396,8 @@ body {
     font-size: 25px !important;
   }
   .footer .container p {
-    font-size: 18px !important;
+    font-size: 16px !important;
+    padding-top: 10px;
   }
   .footer__h5bottom {
     font-size: 25px !important;

@@ -193,7 +193,7 @@
         margin-right: 20px !important;
     }
     .carusel__h4{
-        font-size: 35px;
+        font-size: 30px;
     }
     .slider__name{
         h6{
@@ -236,7 +236,7 @@
 
 @media (max-width: 436px){
     .carusel__h4{
-        font-size: 28px;
+        font-size: 30px;
     }
     .slider__name{
         h6{
@@ -282,7 +282,8 @@
 
 @media (max-width: 305px){
     .carusel__h4{
-        font-size: 18px;
+        font-size: 20px !important;
+        line-height: 25px !important;
     }
     .slider__name{
         h6{
@@ -329,12 +330,12 @@
         font-size: 14px;
     }
     .test__h5{
-        font-size: 24px !important;
+        font-size: 20px !important;
     }
 
     .lesson__coll{
         p{
-            font-size: 12px !important;
+            font-size: 16px !important;
         }
     }
     .nav__col1{
@@ -343,7 +344,7 @@
             line-height: 25px !important;
         }
         p{
-            font-size: 18px !important;
+            font-size: 16px !important;
             line-height: 20px !important;
         }
     }

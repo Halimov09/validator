@@ -89,6 +89,16 @@
     }
 }
 
+@media (max-width: 720px){
+    .footer__h5{
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .footer__all-css{
+        font-size: 24px;
+    }
+}
+
 
 @media (max-width: 576px){
     .footer__h5{
@@ -122,7 +132,8 @@
     .footer{
         .container{
             p{
-                font-size: 18px !important;
+                font-size: 16px !important;
+                padding-top: 10px;
             }
         }
     }

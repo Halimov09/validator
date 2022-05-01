@@ -302,11 +302,6 @@
 }
 
 @media (max-width: 868px){
-    .lesson__col{
-        p{
-            line-height: 22px !important;
-        }
-    }
 
     .lesson__h3{
         font-size: 55px !important;
@@ -350,13 +345,22 @@
         left: -10px !important;
         top: 5px !important;
     }
+    .lesson__h3{
+        font-size: 50px !important;
+        line-height: 50px !important;
+    }
+    .lesson__col{
+        p{
+            font-size: 24px !important;
+        }
+    }
 }
 
 
 @media (max-width: 576px){
     .lesson__h3{
         font-size: 30px !important;
-        line-height: 30px !important;
+        line-height: 40px !important;
     }
     .les__h4-4::before{
         top: 35px !important;
@@ -371,7 +375,7 @@
             top: 35px !important;
         }
         p{
-            font-size: 16px !important;
+            font-size: 20px !important;
             padding-left: 50px !important;
         }
     }
@@ -423,7 +427,8 @@
         
     }
     .lesson__h3{
-        font-size: 22px !important;
+        font-size: 20px !important;
+        line-height: 25px !important;
     }
 
     .lesson__great-text{
@@ -444,7 +449,7 @@
 @media (max-width: 270px){
     .lesson__great-text{
         padding-top: 50px !important;
-        font-size: 11px !important;
+        font-size: 16px !important;
         line-height: 20px !important;
     }
 
